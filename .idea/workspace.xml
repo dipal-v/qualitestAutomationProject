@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="feca3d92-6792-478f-9c8a-ef9470c919c3" name="Default Changelist" comment="" />
+    <list default="true" id="feca3d92-6792-478f-9c8a-ef9470c919c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/reusableMethods/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/reusableMethods/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BehaviourTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BehaviourTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pageObjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pageObjects/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/reusableMethods/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/reusableMethods/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/BehaviourTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/BehaviourTests.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +24,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,7 +35,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1PQGh6yBH4Mvd3aKugMSsDqx3mp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -41,7 +55,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.BehaviourTests.validatePrefferredLangCurrency">
+  <component name="RunManager" selected="TestNG.BehaviourTests.searchFunctionality">
+    <configuration name="BehaviourTests.searchFunctionality" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="qualiTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.BehaviourTests" />
+      <option name="METHOD_NAME" value="searchFunctionality" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BehaviourTests.successfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="qualiTest" />
       <extension name="coverage">
@@ -60,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BehaviourTests.userShouldBeAbleToTrabverseToLoginPage" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BehaviourTests.userShouldBeAbleToTrabverseToHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="qualiTest" />
       <extension name="coverage">
         <pattern>
@@ -70,25 +102,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.BehaviourTests" />
-      <option name="METHOD_NAME" value="userShouldBeAbleToTrabverseToLoginPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BehaviourTests.validateLoginRules" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="qualiTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.BehaviourTests" />
-      <option name="METHOD_NAME" value="validateLoginRules" />
+      <option name="METHOD_NAME" value="userShouldBeAbleToTrabverseToHomePage" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -134,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.BehaviourTests.searchFunctionality" />
+        <item itemvalue="TestNG.BehaviourTests.userShouldBeAbleToTrabverseToHomePage" />
         <item itemvalue="TestNG.BehaviourTests.validatePrefferredLangCurrency" />
         <item itemvalue="TestNG.BehaviourTests.successfulLogin" />
         <item itemvalue="TestNG.BehaviourTests.validatePrefferredLangCurrency (1)" />
-        <item itemvalue="TestNG.BehaviourTests.validateLoginRules" />
-        <item itemvalue="TestNG.BehaviourTests.userShouldBeAbleToTrabverseToLoginPage" />
       </list>
     </recent_temporary>
   </component>
@@ -154,5 +168,18 @@
       <updated>1565799022438</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

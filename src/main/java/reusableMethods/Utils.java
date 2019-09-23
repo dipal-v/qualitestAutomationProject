@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import pageObjects.HomePage;
 
 import javax.swing.*;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -110,5 +111,15 @@ public class Utils {
         jse.executeScript("window.scrollBy(0,250)", "");
     }
 
+    public void writeInTextBox(By by, String abc)
+    {
+        driver.findElement(by).clear();
+        driver.findElement(by).sendKeys(abc);
+    }
+
+    public void selectDateFromDatePicker(By by, String date)
+    {
+        driver.findElement(by).sendKeys(date);
+    }
 
 }

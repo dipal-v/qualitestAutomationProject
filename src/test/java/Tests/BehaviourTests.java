@@ -3,6 +3,7 @@ package Tests;
 import com.thedeanda.lorem.LoremIpsum;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
@@ -26,7 +27,7 @@ public class BehaviourTests {
     MyAccountsPage myAccountsPage = new MyAccountsPage();
     LoginPage loginPage = new LoginPage();
 
-    @BeforeTest
+    @BeforeMethod
     public void getHomePage()
     {
         utils.getWebPage(baseUrl);
@@ -149,5 +150,15 @@ public class BehaviourTests {
                  {
                     Assert.assertTrue(preferredLanguages.contains(myAccountsPage.prefferedLanguage[i]));
                   }
+        }
+
+
+        @Test
+        public void searchFunctionality()
+        {
+            utils.writeInTextBox(homePage.searchTextBox, homePage.searchCity );
+          utils.selectDateFromDatePicker(homePage.arriveDateLocator, homePage.arrivalDate());
+          utils.selectDateFromDatePicker(homePage.returnDateLodator, homePage.returnDate());
+          utils.clickOnAnElement(homePage.searchButton);
         }
     }
